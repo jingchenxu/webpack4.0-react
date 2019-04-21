@@ -1,0 +1,30 @@
+{
+  "name": "webpack4.0-react",
+  "version": "1.0.0",
+  "description": "study for webpack4.0&react",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "webpack --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jingchenxu/webpack4.0-react.git"
+  },
+  "keywords": [
+    "webpack4.0",
+    "react"
+  ],
+  "author": "jingchenxu2015@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jingchenxu/webpack4.0-react/issues"
+  },
+  "homepage": "https://github.com/jingchenxu/webpack4.0-react#readme",
+  "dependencies": {
+    "webpack": "^4.30.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.0"
+  }
+}
