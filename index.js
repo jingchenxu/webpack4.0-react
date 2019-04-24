@@ -1,3 +1,4 @@
-import app from './src/app'
+import React from 
+import ReactDom from 'react-dom'
 
-window.onload = () => app()
+ReactDom.render(<div>hello world</div>, document.getElementById('app'))

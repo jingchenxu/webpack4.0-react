@@ -12,7 +12,18 @@ const config = {
         filename: 'index.html',
         template: 'index.html',
         inject: 'head'
-    })]
+    })],
+    module: {
+        rules: [
+            {
+                test: /\.(js|jsx)$/,
+                use: {
+                    loader: 'babel-loader',
+                },
+                exclude: /node_modules/
+            }
+        ]
+    }
 }
 
 module.exports = config
