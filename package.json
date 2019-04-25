@@ -2,10 +2,11 @@
   "name": "webpack4.0-react",
   "version": "1.0.0",
   "description": "study for webpack4.0&react",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "webpack --mode=development"
+    "start": "webpack --mode=development",
+    "dev": "webpack-dev-server --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -22,9 +23,18 @@
   },
   "homepage": "https://github.com/jingchenxu/webpack4.0-react#readme",
   "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
     "webpack": "^4.30.0"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.0"
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
   }
 }
