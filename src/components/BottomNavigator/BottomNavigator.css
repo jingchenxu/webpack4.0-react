@@ -5,3 +5,18 @@
     position: fixed;
     bottom: 0;
 }
+
+.navi-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navi-item {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}

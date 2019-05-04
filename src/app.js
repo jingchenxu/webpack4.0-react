@@ -6,6 +6,7 @@ import PageA from './components/PageA'
 import BottomNavigator from './components/BottomNavigator'
 import IndexPage from './pages/IndexPage'
 import UserCenter from './pages/UserCenter'
+import ShopingCart from './pages/ShopingCart'
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Route exact path="/" component={HelloWorld} />
       <Route path="/pagea/" component={PageA} />
       <Route path="/indexpage" component={IndexPage} />
-      <Route path="UserCenter" component={UserCenter} />
+      <Route path="usercenter" component={UserCenter} />
+      <Route path="shopingcart" component={ShopingCart} />
       <BottomNavigator/>
     </Router>
   )
