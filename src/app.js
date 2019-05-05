@@ -14,8 +14,8 @@ function App() {
       <Route exact path="/" component={HelloWorld} />
       <Route path="/pagea/" component={PageA} />
       <Route path="/indexpage" component={IndexPage} />
-      <Route path="usercenter" component={UserCenter} />
-      <Route path="shopingcart" component={ShopingCart} />
+      <Route path="/usercenter" component={UserCenter} />
+      <Route path="/shopingcart" component={ShopingCart} />
       <BottomNavigator/>
     </Router>
   )
