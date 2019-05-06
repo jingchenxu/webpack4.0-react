@@ -1,3 +1,3 @@
-import ShopingCart from './ShopingCart'
+import ShopingCart from './ShopingCartHooks'
 
 export default ShopingCart
