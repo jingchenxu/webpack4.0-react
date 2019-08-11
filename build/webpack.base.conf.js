@@ -1,14 +1,16 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
-module.export = {
+module.exports = {
+  // 设置脚本执行目录
+  context: path.resolve(__dirname, '../'),
   // 当前所处的模式
   mode: 'production',
   // 表示入口文件 这里的入口文件可能只有一个，也可以传入的是一个数组
-  entry: '../src/index.js',
+  entry: './src/index.js',
   // 表示文件的输出地址，以及输出文件的名称
-  path: {
-    path: path.resolve(__dirname, 'dist'),
+  output: {
+    path: path.resolve(__dirname, '../dist'),
     filename: 'webpack4.0-react.js'
   },
   // 针对不同的模块使用不同的loader进行处理
@@ -28,6 +30,6 @@ module.export = {
   },
   // 使用插件
   plugins: [new HtmlWebpackPlugin({
-    template: '../assert/index.html'
+    template: './assert/index.html'
   })]
 }

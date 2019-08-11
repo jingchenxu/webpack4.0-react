@@ -1,12 +1,15 @@
 process.env.NODE_ENV = 'production'
 
 const webpack = require('webpack')
-const webpackConfig = require('./webpack.prod.conf')
+const webpackConfig = require('./webpack.base.conf.js')
 const ora = require('ora')
 const rm = require('rimraf') // 用于清除打包文件 貌似webpack支持
 
-const spinner = ora('开始打包了...')
+const spinner = ora('开始打包了...\n')
 spinner.start()
+
+console.log('----')
+console.dir(webpackConfig)
 
 webpack(webpackConfig, (err, stats) => {
   spinner.stop()
