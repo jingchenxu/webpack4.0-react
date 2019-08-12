@@ -1,4 +1,6 @@
 import React from 'react'
+import { Button } from 'antd-mobile'
+
 
 class IndexPage extends React.Component {
     constructor(props){
@@ -6,7 +8,7 @@ class IndexPage extends React.Component {
     }
     render () {
         return (
-            <h1>IndexPage</h1>
+          <Button>Start</Button>
         )
     }
 }
