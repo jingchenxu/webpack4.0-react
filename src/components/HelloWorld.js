@@ -28,9 +28,9 @@ class HelloWorld extends React.Component {
   componentWillMount () {
     console.dir('componentWillMount')
   }
-  componentWillReceiveProps () {
-    console.dir('componentWillReceiveProps')
-  }
+  // componentWillReceiveProps () {
+  //   console.dir('componentWillReceiveProps')
+  // }
   componentWillUnmount () {
     console.dir('componentWillUnmount')
   }
