@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/jingchenxu/webpack4.0-react#readme",
   "dependencies": {
+    "antd-mobile": "^2.3.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1"

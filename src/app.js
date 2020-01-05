@@ -7,6 +7,7 @@ import BottomNavigator from './components/BottomNavigator'
 import IndexPage from './pages/IndexPage'
 import UserCenter from './pages/UserCenter'
 import ShopingCart from './pages/ShopingCart'
+import { TabBar } from 'antd-mobile'
 
 function App() {
   return (
